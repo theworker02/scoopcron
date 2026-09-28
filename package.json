@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scoopcron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scoop structured JSON cron payloads without a heavyweight toolkit.",
+  "bin": {
+    "scoopcron": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scoopcron.git"
+  },
+  "homepage": "https://theworker02.github.io/scoopcron/",
+  "keywords": [
+    "scoop",
+    "cron",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
